@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Challenges`
+
+- Use jsx classname in styled compnent - trying to divide the images into two, so i can add some images to the middle
+
+### `Challenges`
+
+make a picture discription appear when hover on the right footer uls, the a sreen is built above the footer screen
+
+-
