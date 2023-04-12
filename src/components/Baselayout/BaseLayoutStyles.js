@@ -1,4 +1,50 @@
 import styled from "styled-components";
+import {
+  TiSocialTwitter,
+  TiSocialInstagram,
+  TiSocialFacebook,
+  TiSocialGithub,
+  TiSocialLinkedin,
+} from "react-icons/ti";
+
+//Icons
+
+export const TwitterIcon = styled(TiSocialTwitter)`
+  font-size: 2rem; /* Change the font size to increase the icon size */
+  color: #696867; /* Change the color to set the icon color */
+  :hover {
+    color: #000;
+  }
+`;
+export const InstagramIcon = styled(TiSocialInstagram)`
+  font-size: 2rem; /* Change the font size to increase the icon size */
+  color: #696867; /* Change the color to set the icon color */
+  :hover {
+    color: #000;
+  }
+`;
+export const FacebookIcon = styled(TiSocialFacebook)`
+  font-size: 2rem; /* Change the font size to increase the icon size */
+  color: #696867; /* Change the color to set the icon color */
+  :hover {
+    color: #000;
+  }
+`;
+export const GitHubIcon = styled(TiSocialGithub)`
+  font-size: 2rem; /* Change the font size to increase the icon size */
+  color: #696867; /* Change the color to set the icon color */
+  :hover {
+    color: #000;
+  }
+`;
+export const LinkedinIcon = styled(TiSocialLinkedin)`
+  font-size: 2rem; /* Change the font size to increase the icon size */
+  color: #696867; /* Change the color to set the icon color */
+  :hover {
+    color: #000;
+  }
+`;
+
 const buttonClassName = "buttonClassName";
 const topImage = "topImage";
 const buttomImage = "buttomImage";
@@ -20,6 +66,10 @@ export const BaseStyleStyles = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     padding: 2%;
+    @media (max-width: 320px) {
+      max-height: 100%;
+      padding: 30px 0;
+    }
     nav {
       display: flex;
       justify-content: space-between;
@@ -27,6 +77,9 @@ export const BaseStyleStyles = styled.div`
       flex-wrap: wrap;
       font-size: 16px;
       font-weight: 900;
+      @media (max-width: 320px) {
+        justify-content: center;
+      }
       a {
         text-decoration: none;
         color: #696867;
@@ -62,6 +115,9 @@ export const BaseStyleStyles = styled.div`
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
           background-color: #c6c6c6;
           /* border: 2px solid #000; */
+        }
+        @media (max-width: 320px) {
+          margin-top: 20px;
         }
       }
     }
@@ -162,23 +218,25 @@ export const ProjectPageStyles = styled.div``;
 
 export const Sec1ImageContainer = styled.div`
   &.${buttonClassName} {
-    background-color: #e7e7e7bd;
+    background-color: #e7e7e7;
     position: relative;
     div {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-
       h1 {
         font-size: 3vw;
-        background-color: #e7e7e7bd;
+        background-color: #e7e7e78e;
         font-weight: 900;
         color: #000;
         word-spacing: 10px;
         @media (max-width: 600px) {
           font-size: 16px;
           word-spacing: 0px;
+        }
+        @media (max-width: 300px) {
+          white-space: nowrap;
         }
       }
     }
@@ -193,7 +251,8 @@ export const TopImage = styled.img`
     background-position: center; /* Position the top center of the image at the top center of the container */
     background-size: cover; /* Scale the image to cover the entire container while preserving its aspect ratio */
     background-repeat: no-repeat;
-
+    background-blend-mode: overlay;
+    background-color: #00000044;
     @media (max-width: 600px) {
       height: 350px;
     }
@@ -208,6 +267,9 @@ export const BottomImage = styled.img`
     background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1681300026/trevor-vannoy-hFJHqgpnCeQ-unsplash_bottom_jobej0.jpg"); /* Set the background image */
     background-position: center; /* Position the top center of the image at the top center of the container */
     background-size: cover; /* Scale the image to cover the entire container while preserving its aspect ratio */
+
+    background-blend-mode: overlay;
+    background-color: #00000037;
     @media (max-width: 600px) {
       height: 200px;
     }
@@ -242,7 +304,7 @@ export const AboutMeSectionStyles = styled.div`
         width: 150px;
         height: 40px;
         margin-right: 1%;
-        margin-bottom: 1%;
+        margin-bottom: 3%;
         padding: 2px;
         border-radius: 50px;
         display: flex;

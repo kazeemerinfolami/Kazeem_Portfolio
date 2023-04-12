@@ -1,6 +1,20 @@
 import React, { useState } from "react";
 import myImage from "../../assets/images/IMG_4278.jpeg";
 import MediaSection from "../../Pages/LandingPage/MediaSection";
+import {
+  TiSocialTwitter,
+  TiSocialInstagram,
+  TiSocialFacebook,
+  TiSocialGithub,
+  TiSocialLinkedin,
+} from "react-icons/ti";
+import {
+  FacebookIcon,
+  GitHubIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  TwitterIcon,
+} from "./BaseLayoutStyles";
 
 function Footer({ showNoMedia }) {
   const currentYear = new Date().getFullYear();
@@ -28,34 +42,80 @@ function Footer({ showNoMedia }) {
               </p>
               <ul>
                 <li>
-                  <a href="#/">hgsggs </a>
+                  <a href="#/">
+                    <TwitterIcon />
+                  </a>
                 </li>
 
                 <li>
-                  <a href="#/">hgsggs </a>
+                  <a href="#/">
+                    <InstagramIcon />
+                  </a>
                 </li>
                 <li>
-                  <a href="#/">hgsggs </a>
+                  <a href="#/">
+                    <FacebookIcon />
+                  </a>
+                </li>
+                <li>
+                  <a href="#/">
+                    <GitHubIcon />
+                  </a>
+                </li>
+                <li>
+                  <a href="#/">
+                    <LinkedinIcon />
+                  </a>
                 </li>
               </ul>
             </aside>
             <main>
               <ul onMouseOver={() => handleSwitchMedia("hobbies")}>
-                <h1>Hobbies</h1>
+                <h1
+                  style={
+                    switchMedia === "hobbies"
+                      ? {
+                          color: "#696867",
+                        }
+                      : null
+                  }
+                >
+                  Hobbies
+                </h1>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
               </ul>
               <ul onMouseOver={() => handleSwitchMedia("vul")}>
-                <h1>Volunteers</h1>
+                <h1
+                  style={
+                    switchMedia === "vul"
+                      ? {
+                          color: "#696867",
+                        }
+                      : null
+                  }
+                >
+                  Volunteers
+                </h1>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
               </ul>
               <ul onMouseOver={() => handleSwitchMedia("sth")}>
-                <h1>Languages</h1>
+                <h1
+                  style={
+                    switchMedia === "sth"
+                      ? {
+                          color: "#696867",
+                        }
+                      : null
+                  }
+                >
+                  Languages
+                </h1>
                 <li>hdhsh</li>
                 <li>hdhsh</li>
                 <li>hdhsh</li>

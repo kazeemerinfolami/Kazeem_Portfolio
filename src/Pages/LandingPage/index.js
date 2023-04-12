@@ -18,7 +18,7 @@ function LandingPage() {
         <Sec1ImageContainer className="buttonClassName">
           <TopImage className="topImage" />
           <div>
-            <h1>Welocome to my world</h1>
+            <h1>Explore my space</h1>
           </div>
         </Sec1ImageContainer>
         <AboutMeSection />
