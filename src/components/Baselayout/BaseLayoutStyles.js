@@ -77,7 +77,8 @@ export const BaseStyleStyles = styled.div`
       flex-wrap: wrap;
       font-size: 16px;
       font-weight: 900;
-      @media (max-width: 320px) {
+      padding: 20px 0;
+      @media (max-width: 390px) {
         justify-content: center;
       }
       a {
