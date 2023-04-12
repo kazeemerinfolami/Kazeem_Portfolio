@@ -162,7 +162,7 @@ export const ProjectPageStyles = styled.div``;
 
 export const Sec1ImageContainer = styled.div`
   &.${buttonClassName} {
-    background-color: green;
+    background-color: #e7e7e7bd;
     position: relative;
     div {
       position: absolute;
@@ -188,20 +188,29 @@ export const Sec1ImageContainer = styled.div`
 export const TopImage = styled.img`
   &.${topImage} {
     width: 100%; /* Set the height of the image to 100% of its container */
-    height: 600px; /* Set the height of the container */
-    background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1681176196/trevor-vannoy-hFJHqgpnCeQ-unsplash_ztf2ai.jpg"); /* Set the background image */
-    background-position: top center; /* Position the top center of the image at the top center of the container */
+    height: 700px; /* Set the height of the container */
+    background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1681300028/trevor-vannoy-hFJHqgpnCeQ-unsplash_Top_xefead.jpg"); /* Set the background image */
+    background-position: center; /* Position the top center of the image at the top center of the container */
     background-size: cover; /* Scale the image to cover the entire container while preserving its aspect ratio */
+    background-repeat: no-repeat;
+
+    @media (max-width: 600px) {
+      height: 350px;
+    }
   }
 `;
 
 export const BottomImage = styled.img`
   &.${buttomImage} {
+    background-repeat: no-repeat;
     width: 100%; /* Set the height of the image to 100% of its container */
-    height: 200px; /* Set the height of the container */
-    background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1681176196/trevor-vannoy-hFJHqgpnCeQ-unsplash_ztf2ai.jpg"); /* Set the background image */
-    background-position: bottom center; /* Position the top center of the image at the top center of the container */
+    height: 400px; /* Set the height of the container */
+    background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1681300026/trevor-vannoy-hFJHqgpnCeQ-unsplash_bottom_jobej0.jpg"); /* Set the background image */
+    background-position: center; /* Position the top center of the image at the top center of the container */
     background-size: cover; /* Scale the image to cover the entire container while preserving its aspect ratio */
+    @media (max-width: 600px) {
+      height: 200px;
+    }
   }
 `;
 
@@ -212,7 +221,6 @@ export const AboutMeSectionStyles = styled.div`
     font-weight: 900;
     background-color: aliceblue;
     display: inline-block;
-
     background-color: #c6c6c6;
     margin-bottom: 3%;
   }
