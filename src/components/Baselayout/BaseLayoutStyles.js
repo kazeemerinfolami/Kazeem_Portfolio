@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import {
   TiSocialTwitter,
   TiSocialInstagram,
@@ -9,11 +9,24 @@ import {
 
 //Icons
 
+export const bounce = keyframes`
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
+
 export const TwitterIcon = styled(TiSocialTwitter)`
   font-size: 2rem; /* Change the font size to increase the icon size */
   color: #696867; /* Change the color to set the icon color */
   :hover {
     color: #000;
+    animation: ${bounce} 2s linear infinite;
   }
 `;
 export const InstagramIcon = styled(TiSocialInstagram)`
@@ -21,6 +34,7 @@ export const InstagramIcon = styled(TiSocialInstagram)`
   color: #696867; /* Change the color to set the icon color */
   :hover {
     color: #000;
+    animation: ${bounce} 2s linear infinite;
   }
 `;
 export const FacebookIcon = styled(TiSocialFacebook)`
@@ -28,6 +42,7 @@ export const FacebookIcon = styled(TiSocialFacebook)`
   color: #696867; /* Change the color to set the icon color */
   :hover {
     color: #000;
+    animation: ${bounce} 2s linear infinite;
   }
 `;
 export const GitHubIcon = styled(TiSocialGithub)`
@@ -35,6 +50,7 @@ export const GitHubIcon = styled(TiSocialGithub)`
   color: #696867; /* Change the color to set the icon color */
   :hover {
     color: #000;
+    animation: ${bounce} 2s linear infinite;
   }
 `;
 export const LinkedinIcon = styled(TiSocialLinkedin)`
@@ -42,6 +58,7 @@ export const LinkedinIcon = styled(TiSocialLinkedin)`
   color: #696867; /* Change the color to set the icon color */
   :hover {
     color: #000;
+    animation: ${bounce} 2s linear infinite;
   }
 `;
 
@@ -66,7 +83,7 @@ export const BaseStyleStyles = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     padding: 2%;
-    @media (max-width: 320px) {
+    @media (max-width: 370px) {
       max-height: 100%;
       padding: 30px 0;
     }

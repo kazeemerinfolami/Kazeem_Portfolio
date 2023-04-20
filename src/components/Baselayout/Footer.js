@@ -69,59 +69,61 @@ function Footer({ showNoMedia }) {
                 </li>
               </ul>
             </aside>
-            <main>
-              <ul onMouseOver={() => handleSwitchMedia("hobbies")}>
-                <h1
-                  style={
-                    switchMedia === "hobbies"
-                      ? {
-                          color: "#696867",
-                        }
-                      : null
-                  }
-                >
-                  Hobbies
-                </h1>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-              </ul>
-              <ul onMouseOver={() => handleSwitchMedia("vul")}>
-                <h1
-                  style={
-                    switchMedia === "vul"
-                      ? {
-                          color: "#696867",
-                        }
-                      : null
-                  }
-                >
-                  Volunteers
-                </h1>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-              </ul>
-              <ul onMouseOver={() => handleSwitchMedia("sth")}>
-                <h1
-                  style={
-                    switchMedia === "sth"
-                      ? {
-                          color: "#696867",
-                        }
-                      : null
-                  }
-                >
-                  Languages
-                </h1>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-                <li>hdhsh</li>
-              </ul>
-            </main>
+            {showNoMedia === "yes" ? (
+              <main>
+                <ul onMouseOver={() => handleSwitchMedia("hobbies")}>
+                  <h1
+                    style={
+                      switchMedia === "hobbies"
+                        ? {
+                            color: "#696867",
+                          }
+                        : null
+                    }
+                  >
+                    Hobbies
+                  </h1>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                </ul>
+                <ul onMouseOver={() => handleSwitchMedia("vul")}>
+                  <h1
+                    style={
+                      switchMedia === "vul"
+                        ? {
+                            color: "#696867",
+                          }
+                        : null
+                    }
+                  >
+                    Volunteers
+                  </h1>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                </ul>
+                <ul onMouseOver={() => handleSwitchMedia("sth")}>
+                  <h1
+                    style={
+                      switchMedia === "sth"
+                        ? {
+                            color: "#696867",
+                          }
+                        : null
+                    }
+                  >
+                    Languages
+                  </h1>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                  <li>hdhsh</li>
+                </ul>
+              </main>
+            ) : null}
           </div>
           <h5> @{currentYear} Kazeem E</h5>
         </article>
