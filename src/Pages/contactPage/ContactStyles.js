@@ -1,4 +1,4 @@
-import { ErrorMessage, Formik } from "formik";
+import { ErrorMessage } from "formik";
 import styled from "styled-components";
 
 //Icons

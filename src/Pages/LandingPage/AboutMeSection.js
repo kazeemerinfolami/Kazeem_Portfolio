@@ -12,11 +12,18 @@ function AboutMeSection() {
       <h1>About Me</h1>
       <section>
         <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam .
+          I am a software developer with two years of experience in mobile and
+          desktop programming. I'm passionate about designing and developing
+          high-quality user interfaces that meet rigorous standards. I have
+          collaborated with cross-functional teams and delivered quality
+          projects across diverse industries. I am committed to staying
+          up-to-date with the latest front-end technologies and frameworks and
+          continuously improving my skills through ongoing learning and
+          certifications. I have an MSc in Computing from the University of
+          Sunderland and a Software Development Bootcamp certification from
+          Northcoders.
         </h2>
-        <ul>
+        <aside>
           <li
             className={switchSection === "aboutMe" ? "activeSection" : null}
             onClick={() => handleSwitchSection("aboutMe")}
@@ -35,7 +42,7 @@ function AboutMeSection() {
           >
             Companies
           </li>
-        </ul>
+        </aside>
         <div>
           <p>
             {switchSection === "aboutMe" ? (
@@ -46,15 +53,28 @@ function AboutMeSection() {
               </h6>
             ) : switchSection === "aboutLang" ? (
               <h6>
-                aboutLang Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Maxime mollitia, molestiae quas vel sint commodi
-                repudiandae consequuntur voluptatum laborum numquam .
+                <ul>
+                  <li>HTML | </li>
+                  <li>CSS | </li>
+                  <li>JavaScript | </li>
+                  <li>TypeScript | </li>
+                  <li>Jest | </li>
+                  <li>MySQL | </li>
+                  <li>MongoDB | </li>
+                  <li>OOP | </li>
+                  <li>GitHub | </li>
+                  <li>Agile Methodology</li>
+                </ul>
               </h6>
             ) : switchSection === "aboutComp" ? (
               <h6>
-                aboutComp Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Maxime mollitia, molestiae quas vel sint commodi
-                repudiandae consequuntur voluptatum laborum numquam .
+                <ul>
+                  <li>Northcoders | </li>
+                  <li>Monerce | </li>
+                  <li>Medcob Inc | </li>
+                  <li>Turon Technologies | </li>
+                  <li>Tech for Good inc </li>
+                </ul>
               </h6>
             ) : null}
           </p>

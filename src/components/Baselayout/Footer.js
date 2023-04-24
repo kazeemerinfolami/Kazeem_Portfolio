@@ -2,13 +2,6 @@ import React, { useState } from "react";
 import myImage from "../../assets/images/IMG_4278.jpeg";
 import MediaSection from "../../Pages/LandingPage/MediaSection";
 import {
-  TiSocialTwitter,
-  TiSocialInstagram,
-  TiSocialFacebook,
-  TiSocialGithub,
-  TiSocialLinkedin,
-} from "react-icons/ti";
-import {
   FacebookIcon,
   GitHubIcon,
   InstagramIcon,

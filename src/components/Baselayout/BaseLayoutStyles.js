@@ -313,7 +313,7 @@ export const AboutMeSectionStyles = styled.div`
         line-height: 30px;
       }
     }
-    ul {
+    aside {
       display: flex;
       list-style-type: none;
       flex-wrap: wrap;
@@ -350,6 +350,15 @@ export const AboutMeSectionStyles = styled.div`
         justify-content: center;
         padding: 3%;
         h6 {
+          ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            li {
+              margin: 0 7px 5px 7px;
+            }
+          }
         }
       }
     }
@@ -414,6 +423,7 @@ export const ProjectSectionStyles = styled.div`
     }
     h2 {
       max-width: 600px;
+      margin-bottom: 30px;
     }
   }
   section {
