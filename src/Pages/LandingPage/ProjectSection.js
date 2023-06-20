@@ -1,6 +1,9 @@
 import React from "react";
 import { ProjectSectionStyles } from "../../components/Baselayout/BaseLayoutStyles";
-import screenshot from "../../assets/images/Screenshot 2023-04-20 at 10.50.08.png";
+import Medcob_screenshot from "../../assets/images/Screenshot 2023-04-20 at 10.50.08.png";
+import Agrol_screenshot from "../../assets/images/Agrol screenshot.png";
+import klasha_screenshot from "../../assets/images/Klasha screenshot.png";
+import Monace_screenshot from "../../assets/images/Monace screenshot.png";
 
 function ProjectSection() {
   return (
@@ -8,82 +11,82 @@ function ProjectSection() {
       <p>
         <h1>Projects</h1>
         <h2>
-          I have worked on a variety of impressive projects throughout my
-          career, demonstrating my ability to deliver high-quality solutions.
-          During my internship at Northcoders, I collaborated with
-          cross-functional teams to develop industry-driven web applications
-          using JavaScript, Node, and React. I sketched out the flow of the NC
-          News application's functionality during the project planning wireframe
-          phase and built a platform using React.js and Node.js that allowed
-          users to access the web app as a logged-in user or anonymously. I also
-          built a backend REST API using MySQL as the database to store, delete,
-          and update pieces of information. In my role as a frontend developer
-          for Medcob Inc., I independently developed a fully functional
-          front-end web application that helped consumers identify accredited
-          medical, pharmacy, and diagnostic facilities. I also built
-          user-friendly front-end applications such as an LMS and a "Cooperative
-          Web App" for Turon Technologies. With a strong track record of
-          successfully delivering projects and improving website performance, I
-          have demonstrated their expertise in developing high-quality web
-          applications.
+          Welcome to the Projects section, Here you'll get an in-depth look at
+          the exciting software development projects I have been involved in.
+          Each project showcases my skills, expertise, and commitment to
+          delivering high-quality solutions.
         </h2>
       </p>
       <section>
         <ul>
           <li>
             <div>
-              <img src={screenshot} alt="expImg" />
+              <img src={Medcob_screenshot} alt="expImg" />
             </div>
             <h2>
               <h4>Medcob</h4>
               <h6>
-                <a href="#/">visit</a>
+                <a
+                  href="https://athealth-fe.vercel.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  View Page
+                </a>
               </h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam .
+              At Medcob Inc is a platform that help consumers identify
+              accredited medical, pharmacy, and diagnostic facilities.
             </h2>
           </li>
           <li>
             <div>
-              <img src={screenshot} alt="expImg" />
+              <img src={Monace_screenshot} alt="expImg" />
             </div>
             <h2>
-              <h4>Medcob</h4>
+              <h4>Monace</h4>
               <h6>
-                <a href="#/">visit</a>
+                <a href="#/">Still in production</a>
               </h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam.
+              Monerce is an innovative platform that changes commerce in areas
+              with limited internet access. The online-to-offline platform
+              enables transactions via text messaging and USSD-based banking
+              apps. Monerce prioritise accessibility, security, and
+              user-friendly services, aiming to connect businesses and customers
+              seamlessly without requiring mobile apps.
             </h2>
           </li>
           <li>
             <div>
-              <img src={screenshot} alt="expImg" />
+              <img src={Agrol_screenshot} alt="expImg" />
             </div>
             <h2>
-              <h4>Medcob</h4>
+              <h4>Agrol</h4>
               <h6>
-                <a href="#/">visit</a>
+                <a href="#/" rel="noreferrer" target="_blank">
+                  View Page
+                </a>
               </h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam.
+              Agrol is a Market Place deal with Organic and agricultural Food
+              Creates Investment Opportunity for small investors.
             </h2>
           </li>
           <li>
             <div>
-              <img src={screenshot} alt="expImg" />
+              <img src={klasha_screenshot} alt="expImg" />
             </div>
             <h2>
-              <h4>Medcob</h4>
+              <h4>klasha</h4>
               <h6>
-                <a href="#/">visit</a>
+                <a
+                  href="https://klasha-omega.vercel.app/home.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  View Page
+                </a>
               </h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam.
+              klasha is a simple users dashbord, where a user can access his/her
+              balance, manage customers and view the currect exchange rate.
             </h2>
           </li>
         </ul>

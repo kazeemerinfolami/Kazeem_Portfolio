@@ -35,28 +35,28 @@ function Footer({ showNoMedia }) {
               </p>
               <ul>
                 <li>
-                  <a href="#/">
+                  <a href="https://twitter.com/ErinKazeem">
                     <TwitterIcon />
                   </a>
                 </li>
 
                 <li>
-                  <a href="#/">
+                  <a href="https://www.instagram.com/kazeemerin/">
                     <InstagramIcon />
                   </a>
                 </li>
                 <li>
-                  <a href="#/">
+                  <a href="https://www.facebook.com/erinfolamibolaji">
                     <FacebookIcon />
                   </a>
                 </li>
                 <li>
-                  <a href="#/">
+                  <a href="https://github.com/kazeemerinfolami">
                     <GitHubIcon />
                   </a>
                 </li>
                 <li>
-                  <a href="#/">
+                  <a href="https://www.linkedin.com/in/kazeem-erinfolami-974739190/">
                     <LinkedinIcon />
                   </a>
                 </li>
@@ -76,10 +76,10 @@ function Footer({ showNoMedia }) {
                   >
                     Hobbies
                   </h1>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
+                  <li>Problem Solving</li>
+                  <li>Music</li>
+                  <li>Teamwork</li>
+                  <li>Continuous Learning</li>
                 </ul>
                 <ul onMouseOver={() => handleSwitchMedia("vul")}>
                   <h1
@@ -93,10 +93,9 @@ function Footer({ showNoMedia }) {
                   >
                     Volunteers
                   </h1>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
+                  <li>TFG</li>
+                  <li>Monace</li>
+                  <li>Medcob</li>
                 </ul>
                 <ul onMouseOver={() => handleSwitchMedia("sth")}>
                   <h1
@@ -110,15 +109,13 @@ function Footer({ showNoMedia }) {
                   >
                     Languages
                   </h1>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
-                  <li>hdhsh</li>
+                  <li>English</li>
+                  <li>Yoruba</li>
                 </ul>
               </main>
             ) : null}
           </div>
-          <h5> @{currentYear} Kazeem E</h5>
+          <h5> @{currentYear} Kazeem B Erinfolami</h5>
         </article>
       </h6>
     </footer>

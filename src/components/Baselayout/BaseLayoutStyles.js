@@ -307,9 +307,9 @@ export const AboutMeSectionStyles = styled.div`
   section {
     h2 {
       font-size: 18px;
-      margin-bottom: 5%;
+      margin-bottom: 10px;
       @media (min-width: 600px) {
-        max-width: 600px;
+        max-width: 1000px;
         line-height: 30px;
       }
     }
@@ -317,6 +317,7 @@ export const AboutMeSectionStyles = styled.div`
       display: flex;
       list-style-type: none;
       flex-wrap: wrap;
+      margin-top: 5%;
       li {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         width: 150px;
@@ -384,9 +385,10 @@ export const ExperienceSectionStyles = styled.div`
     img {
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
       @media (min-width: 600px) {
-        max-width: 20vw;
+        max-height: 40%;
+        max-width: 40%;
       }
-      @media (max-width: 590px) {
+      @media (max-width: 950px) {
         max-height: 50%;
         max-width: 50%;
         margin-bottom: 7%;
@@ -399,7 +401,8 @@ export const ExperienceSectionStyles = styled.div`
       max-width: 50vw;
       font-size: 18px;
       line-height: 30px;
-      @media (max-width: 590px) {
+      margin-bottom: 10px;
+      @media (max-width: 950px) {
         width: 100%;
         max-width: 100%;
       }
@@ -422,6 +425,7 @@ export const ProjectSectionStyles = styled.div`
       margin-bottom: 3%;
     }
     h2 {
+      font-size: 18px;
       max-width: 600px;
       margin-bottom: 30px;
     }
@@ -433,11 +437,17 @@ export const ProjectSectionStyles = styled.div`
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        /* background-color: aliceblue; */
         margin-bottom: 40px;
         flex-wrap: wrap;
         :nth-child(odd) {
           flex-direction: row-reverse;
+          h2 {
+            margin-right: 20px;
+          }
+        }
+        a {
+          text-decoration: none;
+          font-weight: bolder;
         }
         div {
           width: 400px;
@@ -454,6 +464,7 @@ export const ProjectSectionStyles = styled.div`
         h2 {
           max-width: 500px;
           margin-top: 20px;
+          font-size: 18px;
           h4 {
             font-size: 24px;
             margin-bottom: 20px;
