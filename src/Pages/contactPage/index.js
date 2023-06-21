@@ -12,17 +12,17 @@ import Baselayout from "../../components/Baselayout";
 
 function ContactPage() {
   const initialValues = {
-    businessName: "",
-    businessPhone: "",
-    businessEmailAddress: "",
+    Name: "",
+    EmailAddress: "",
+    message: "",
     InvitaionCode: "",
   };
   const validationSchema = Yup.object({
-    businessName: Yup.string().required("Business Name  is required"),
-    businessPhone: Yup.string().required("Business Phone  is required"),
-    businessEmailAddress: Yup.string().required(
-      "Business Email Address  is required"
-    ),
+    Name: Yup.string().required("Name  is required"),
+    EmailAddress: Yup.string()
+      .required("Email Address  is required")
+      .email("Enter a valid email"),
+    message: Yup.string().required("Message  is required"),
   });
 
   return (
@@ -48,31 +48,39 @@ function ContactPage() {
                     <img src={myImage} alt="myImage" />
                   </p>
                   <div>
-                    <label htmlFor="businessName">Business Name*</label>
-                    <Field type="text" name="businessName" />
-                    <StyledErrorMessage name="businessName" component="div" />
+                    <label htmlFor="Name">Business Name*</label>
+                    <Field type="text" name="Name" id="Name" />
+                    <StyledErrorMessage name="Name" component="div" />
                   </div>
                   <div>
-                    <label htmlFor="businessPhone">Business Phone*</label>
-                    <Field type="phone" name="businessPhone" />
-                    <StyledErrorMessage name="businessPhone" component="div" />
-                  </div>
-                  <div>
-                    <label htmlFor="businessEmailAddress">
+                    <label htmlFor="EmailAddress">
                       Business Email Address*
                     </label>
-                    <Field type="text" name="businessEmailAddress" />
-                    <StyledErrorMessage
-                      name="businessEmailAddress"
-                      component="div"
+                    <Field type="text" name="EmailAddress" id="EmailAddress" />
+                    <StyledErrorMessage name="EmailAddress" component="div" />
+                  </div>
+                  <div>
+                    <label htmlFor="message">Message*</label>
+                    <Field
+                      style={{
+                        width: "100%",
+                        padding: "10px",
+                        border: "3px solid #c6c6c6",
+                        outlineColor: "rgba(0, 0, 0, 0.2)",
+                      }}
+                      as="textarea"
+                      id="message"
+                      name="message"
+                      rows={4}
                     />
+                    <StyledErrorMessage name="message" component="div" />
                   </div>
                   <SubmitButton
                     type="submit"
                     disabled={
-                      !values.businessName ||
-                      !values.businessPhone ||
-                      !values.businessEmailAddress ||
+                      !values.Name ||
+                      !values.EmailAddress ||
+                      !values.message ||
                       isSubmitting
                     }
                     onClick={() => console.log("yes")}

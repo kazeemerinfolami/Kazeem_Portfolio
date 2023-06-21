@@ -94,7 +94,7 @@ function Footer({ showNoMedia }) {
                     Volunteers
                   </h1>
                   <li>TFG</li>
-                  <li>Monace</li>
+                  <li>Monerce</li>
                   <li>Medcob</li>
                 </ul>
                 <ul onMouseOver={() => handleSwitchMedia("sth")}>

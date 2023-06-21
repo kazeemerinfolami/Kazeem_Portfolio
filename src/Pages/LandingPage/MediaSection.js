@@ -10,14 +10,13 @@ function MediaSection({ switchMedia }) {
           <main>
             <ul>
               <li>
-                Building and experimenting with new technologies and frameworks:
-                During my time at Northcoders, our team was challenged to build
-                a mobile application within a two-week timeframe using a new
-                framework. After careful consideration, we collectively decided
-                to use React Native as the framework of choice. We successfully
-                developed a mini-map application that exceeded expectations.
-                Readme
+                - Building and experimenting with new technologies and
+                frameworks
               </li>
+              <li>- Volunteering</li>
+              <li>- Reading</li>
+              <li>- Gaming</li>
+              <li>- Music</li>
             </ul>
           </main>
         </p>
@@ -40,12 +39,9 @@ function MediaSection({ switchMedia }) {
           <main>
             <ul>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam . Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Maxime mollitia, molestiae
-                quas vel sint commodi repudiandae consequuntur voluptatum
-                laborum numqu
+                I am proficient in spoken English and I have strong reading and
+                writing skills. Additionally, I am fluent in Yoruba, a language
+                mostly spoken in western Nigeria.
               </li>
             </ul>
           </main>

@@ -50,7 +50,7 @@ function AboutMeSection() {
             className={switchSection === "aboutLang" ? "activeSection" : null}
             onClick={() => handleSwitchSection("aboutLang")}
           >
-            Tools
+            Skils
           </li>
           <li
             className={switchSection === "aboutComp" ? "activeSection" : null}
