@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AboutMeSectionStyles } from "../../components/Baselayout/BaseLayoutStyles";
 
 function AboutMeSection() {
-  const [switchSection, setSwitchSection] = useState("aboutComp");
+  const [switchSection, setSwitchSection] = useState("aboutLang");
 
   const handleSwitchSection = (intialValue) => {
     setSwitchSection(intialValue);
