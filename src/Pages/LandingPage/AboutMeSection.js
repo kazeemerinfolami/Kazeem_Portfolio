@@ -21,9 +21,9 @@ function AboutMeSection() {
         <h2>
           Throughout my career, I have honed my skills in frontend development
           using technologies such as React, HTML, Redux, CSS, Material UI, and
-          Bootstrap. On the backend, I am proficient in Node.js, Express, and
-          Firebase. I also have experience with testing using Jest and working
-          with databases like MySQL and MongoDB.
+          Bootstrap. On the backend, I am proficient in C#, Node.js, Express,
+          and Firebase. I also have experience with testing using Jest and
+          working with databases like MySQL and MongoDB.
         </h2>
         <h2>
           I have a strong track record of making significant contributions to
@@ -74,8 +74,8 @@ function AboutMeSection() {
               </h6>
             ) : switchSection === "aboutLang" ? (
               <h6>
-                HTML | CSS | JavaScript | TypeScript | TDD - Jest | MySQL |
-                MongoDB | OOP | GitHub | Agile Methodology
+                HTML | CSS | JavaScript | C# | TDD - Jest | MySQL | MongoDB |
+                OOP | GitHub | Agile Methodology
               </h6>
             ) : switchSection === "aboutComp" ? (
               <h6>
