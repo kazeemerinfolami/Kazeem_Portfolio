@@ -28,7 +28,7 @@ function Header() {
             </Link>
           </li>
         </ul>
-        <a href="https://docs.google.com/document/d/1qVi9OqrcFBXuVeQp6TFZqxR4sbfkqibW/edit?usp=sharing&ouid=110827623289752662666&rtpof=true&sd=true">
+        <a href="https://docs.google.com/document/d/1W-U5DsewabGf7nUhV9z2W3Q0S11MRUEZozo5niYIZSQ/edit?usp=sharing">
           <div>Download cv</div>
         </a>
       </nav>
