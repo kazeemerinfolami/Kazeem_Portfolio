@@ -6,7 +6,7 @@ function MediaSection({ switchMedia }) {
     <MediaSectionStyles>
       {switchMedia === "hobbies" ? (
         <p>
-          <h1>Hobblies</h1>
+          <h1>Hobbies</h1>
           <main>
             <ul>
               <li>
