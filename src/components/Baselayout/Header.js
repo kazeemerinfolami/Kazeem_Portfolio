@@ -29,7 +29,7 @@ function Header() {
           </li>
         </ul>
         <a href="https://docs.google.com/document/d/1W-U5DsewabGf7nUhV9z2W3Q0S11MRUEZozo5niYIZSQ/edit?usp=sharing">
-          <div>Download cv</div>
+          <div>Download CV</div>
         </a>
       </nav>
     </header>
