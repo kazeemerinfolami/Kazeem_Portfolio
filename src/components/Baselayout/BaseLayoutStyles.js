@@ -21,14 +21,14 @@ export const bounce = keyframes`
   }
 `;
 
-export const TwitterIcon = styled(TiSocialTwitter)`
-  font-size: 2rem; /* Change the font size to increase the icon size */
-  color: #696867; /* Change the color to set the icon color */
-  :hover {
-    color: #000;
-    animation: ${bounce} 2s linear infinite;
-  }
-`;
+// export const TwitterIcon = styled(TiSocialTwitter)`
+//   font-size: 2rem; /* Change the font size to increase the icon size */
+//   color: #696867; /* Change the color to set the icon color */
+//   :hover {
+//     color: #000;
+//     animation: ${bounce} 2s linear infinite;
+//   }
+// `;
 export const InstagramIcon = styled(TiSocialInstagram)`
   font-size: 2rem; /* Change the font size to increase the icon size */
   color: #696867; /* Change the color to set the icon color */
