@@ -35,12 +35,6 @@ function Footer({ showNoMedia }) {
               </p>
               <ul>
                 <li>
-                  <a href="https://twitter.com/ErinKazeem">
-                    <TwitterIcon />
-                  </a>
-                </li>
-
-                <li>
                   <a href="https://www.instagram.com/kazeemerin/">
                     <InstagramIcon />
                   </a>
@@ -48,11 +42,6 @@ function Footer({ showNoMedia }) {
                 <li>
                   <a href="https://www.facebook.com/erinfolamibolaji">
                     <FacebookIcon />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/kazeemerinfolami">
-                    <GitHubIcon />
                   </a>
                 </li>
                 <li>
